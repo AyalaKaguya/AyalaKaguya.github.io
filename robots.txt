@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://AyalaKaguya.github.io/sitemap.xml
