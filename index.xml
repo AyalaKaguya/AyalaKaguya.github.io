@@ -7,50 +7,92 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>© 2017-2021 **[Paper的小站](https://papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [苏ICP备20043492号](https://beian.miit.gov.cn/) |</copyright>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://AyalaKaguya.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://AyalaKaguya.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://AyalaKaguya.github.io/posts/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>图鉴日图 - 我制作了一些(一个)方便web使用的API</title>
+      <link>https://AyalaKaguya.github.io/posts/2020-09-01-%E5%9B%BE%E9%89%B4%E6%97%A5%E5%9B%BE-%E6%88%91%E5%88%B6%E4%BD%9C%E4%BA%86%E4%B8%80%E4%BA%9B%E6%96%B9%E4%BE%BFweb%E4%BD%BF%E7%94%A8%E7%9A%84api/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/posts/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>https://AyalaKaguya.github.io/posts/2020-09-01-%E5%9B%BE%E9%89%B4%E6%97%A5%E5%9B%BE-%E6%88%91%E5%88%B6%E4%BD%9C%E4%BA%86%E4%B8%80%E4%BA%9B%E6%96%B9%E4%BE%BFweb%E4%BD%BF%E7%94%A8%E7%9A%84api/</guid>
+      <description>❗ 警告
+由于小站于近期更新，导致部分或全部功能无法使用，将会陆续恢复，特此告知。
+ 前言 刚创建网站时，我看着我选择的首页大图，如果一成不变，那固然会让人索然乏味，于是我打算随机的获取一张美图。一开始，我瞄上了必应日图，但是苦于没有制作API方面的知识，只能单纯的下载一张图片放上去，久而久之甚是疲惫。后来我在网上也找到一些相关的API，但是它们的访问速度都太慢，小蒋（没错，又是他）就推荐我来到了图鉴的开发组，经过我的了解，他们并没有可以直接获取随机图片的API，我又需要使用他们的接口二次开发，于是这个项目又不了了之。
+今年夏天，我自学了一点C#，参与到了图鉴的开发当中，制作了一个还不错的桌面版图鉴的内核，也了解到了不少API调用方面的知识。于是，我便打算重新开始这个项目。
+ 关于图鉴 图鉴日图（Dailypics）是一个人工精选日图的壁纸软件。每天清晨，从用户上传图片中选出两张作为今日日图，小而不杂。
+在酷安上查看：  API文档 随机选图 GET https://papernote.cn/dpic/random.php
+Args:
+ type : *图片类型 &amp;ldquo;pc/mobile&amp;rdquo; raw : *是否以代理方式返回图片，false时会返回一个301  type参数可以指定“pc”或者“mobile”来输出适合指定设备浏览的图片，当不指定或者选择了错误的选项，则返回完全随机的图片。
+raw选项决定返回的是重定向还是图片，当raw=true时，则返回一张图片，反之，则重定向到图鉴的图床服务器，该参数默认为false。
+调用示例：
+ https://papernote.cn/dpic/random.php?type=pc&amp;amp;raw=true https://papernote.cn/dpic/random.php?type=mobile&amp;amp;raw=true https://papernote.cn/dpic/random.php?type=pc https://papernote.cn/dpic/random.php?raw=true https://papernote.cn/dpic/random.php  搜索图片  ❗ 注意
+最近CDN有些抽风，有些样式炸了，呜呜呜。
+ 搜索图片的话我直接制作了一个网页版，图鉴自带的API我就不放出来了。传送门（API）
+（话说官网的搜索什么时候更新啊喂）
+没事没事，自己写个假的压压惊。
+根据PID获取指定图片（高级功能，需有能力获取PID） 这目前是我个人拿来做图床的功能，以后会在搜索图片中添加图片的详细信息。
+来自未来的Ayala：这个做了，但是效果不好于是没拿出来
+ 注意事项 接口调用
+1M的小水管，如果实在嫌太慢，就不要打开raw开关了亲。如果因为跨域（无论是本域名还是图床域名）而无法访问，请在评论区联系我，我将在第一时间解决。
+图源免责
+图片来自图鉴用户的投稿，与图鉴(Dailypics)和本站(papernote.cn)无关，若用户的行为侵犯了著作权人的合法权利，请联系：Chimon@Chimon.me，我们将第一时间解决。
+为爱发电
+图鉴的制作人也挺辛苦的，欢迎你们为Createlite发电！</description>
     </item>
     
     <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://AyalaKaguya.github.io/posts/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      <title>从Batch到JAVA Script，NowChat的脱胎换骨之路！</title>
+      <link>https://AyalaKaguya.github.io/posts/2020-02-22-%E4%BB%8Ebatch%E5%88%B0javascriptnowchat%E7%9A%84%E8%84%B1%E8%83%8E%E6%8D%A2%E9%AA%A8%E4%B9%8B%E8%B7%AF/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/posts/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/▾ images/logo.png should become
-▾ &amp;lt;root&amp;gt;/▾ static/▾ images/logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>https://AyalaKaguya.github.io/posts/2020-02-22-%E4%BB%8Ebatch%E5%88%B0javascriptnowchat%E7%9A%84%E8%84%B1%E8%83%8E%E6%8D%A2%E9%AA%A8%E4%B9%8B%E8%B7%AF/</guid>
+      <description>❗ 警告
+由于小站于近期更新，导致部分或全部功能无法使用，将会陆续恢复，特此告知。
+ 前传： 点击这里，查看首发帖。
+ 2018-08-14 21:20 NowChat Batch Edition正式在百度bat吧公布 2018-08-14 21:31 与吴先森交涉，决定使用自己的服务器 2018-08-14 21:37 用户登陆的种种设想均已完备 2018-08-14 21:53 决定使用GardensKernel进行聊天室开发 2018-08-15 12:02 登陆部分完成 2018-08-15 18:15 对所有的错误指定了错误页 2018-08-15 18:22 更新了账号生成的规则，添加了密码保护 2018-08-18 23:45 完成公共聊天室 某年月日 GK开发到可以使用，准备让NowChat接轨 某年月日 NowChat接轨完成，拥有较完美的GUI 某年月日 为NowChat开发了一些GK专有模块 某年月日 我的硬盘第一次炸 某年月日 我开学了 某年月日 2020年寒假，我重装了系统，但GK和NC开始鸽了 某年月日 我的系统又一次炸，当天重装系统后心血来潮更新NC，但是排版爆炸 2020-02-15 我通过Magic方法找到了Goeasy，正式开始了NC web的开发 2020-02-17 NowChat Web Edition第一个预览版开发完成  正文： CMD版NowChat为什么弃坑？ 这是最后一个CMD版本的NowChat，因为高三的缘故鸽了半年，在之前的帖子中rain提到，我正在开发其他东西，而这“东西”，正是“Gardens Kernel”（以下简称 GK），开发GK的初衷是简化复杂bat项目的构建，而GK正拥有这些特性：
+ 标准ini的读取 众多的模块（包括对第三方的调用） 完整的外部调用能力（调用里面的模块，并且返回） 好用的Debug系统 windows平台统一化  随着GK开发进度的推进，终于迎来了在TE内部的测试，但是测试结果不太理想，三个演示demo中最重要的那个出现了问题，而这问题只有在我的电脑上才正常，测试结果表明，在我的CMD中，没有字符间距，而其他人那里均出现夸张的排版问题，于是GK的开发便告一段落（其实是我自愧不如山归山的“batchhander”）。
+后来在我某次重装系统过后，我再一次打开了NowChat，排版问题出现了：</description>
     </item>
     
     <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://AyalaKaguya.github.io/posts/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>SMBchat-一个基于SMB协议的聊天软件</title>
+      <link>https://AyalaKaguya.github.io/post/243/</link>
+      <pubDate>Sun, 04 Aug 2019 10:28:04 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/posts/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
+      <guid>https://AyalaKaguya.github.io/post/243/</guid>
+      <description>什么是SMB协议？ 这个协议的内容十分的繁冗复杂，具有非常多样化的功能，其作用和原理我就不在这里赘述了，尽管SMBchat只用到其中的星星点点，但配置过程还是很长，我会尽量的将SMBchat的部署和使用过程简化，并放在这篇文章中。
+SMB-百度百科SMBchat的由来 Paper的小故事时间（雾）片段一片段二片段三谁也不知道为啥要在学校上信息技术课的时候共享文件。好吧，话不多说，其实就是为了能在课上可以联系到彼此还有玩游戏才搞的这么一个共享，我记得当时我们是在目录中通过修改文件名的办法来进行交谈的，在以后的几节课中，我利用闲暇时光，制作了这么一个软件的早期版本。
+然后一直到了高二，我与小明不再是一个班了，但是我又认识了一位有点底子的人，于是，我又重新开始了SMBchat的制作，并推广到了全班（老师：MMP），最终有了现在这么一个版本。
+SMBchat使用效果 使用SMBchat前需注意的事项 下载SMBchat 目前只提供了GitHub的下载方式，点击下面的箭头，即可访问SMBchat的库。
+ &amp;lt;div class=&amp;quot;mdui-spinner&amp;quot;&amp;gt; &amp;lt;/div&amp;gt;&amp;lt;/a&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;  如何配置SMBchat 这么多好处又该如何使用呢？
+服务器 在这里，我们将以win10为例，配置SMBchat，如果其他系统（比如Windows 7以及Windows XP）中没有对应的属性设置，您可以直接跳过，这对于你的系统不是必须的。（在Windows vista之后需要配置用户权限，而之前的大部分桌面版本并不需要。）
+首先我们需要在作为服务器的电脑上建立一个文件夹，为了方便查找，我将其取名为“SMB”
+然后我们右键这个文件夹，点击“属性”。
+然后切换到“共享”选项卡，您会发现：
+我们点开“高级共享”（需要管理员权限）
+然后在弹出的窗口中：
+然后连续点击两个确定，返回“SMB 属性”，然后我们点击下面的“网络和共享中心”
+然后，我们就可以保存更改了。接着，我们进入“安全” 选项卡 ：
+然后点确定，自此，我们就配置完成了。
+如何获得服务器地址？ 首先，我们退回桌面。如果我们的计算机名是“DESKTOP-PAPERMO”，那么我们的聊天服务器地址就应该是“\DESKTOP-PAPERMO\SMB”，即“\你的计算机名\你设置的文件夹名”
+会玩的朋友可以在文件资源管理器里打开这个地址，来体验SMB共享文件的便捷。
+客户端 打开SMBchat，我们即将试验上面开服务器得到的地址“ \DESKTOP-PAPERMO\SMB ”
+然后按下Enter，我们就可以享受SMBchat了！
+SMBchat的指令表 在成功登录服务器后的任何时候，你可以使用以下指令来优化你的聊天环境。
+ &amp;lt;th&amp;gt; 作用 &amp;lt;/th&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt; /logout &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt; 退出登录，并切换下一个用户 &amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt; /win &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt; 启用分离式窗口，但无法使用部分功能 &amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt; /host &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt; 跟换新的聊天服务器地址 &amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt; /reset &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt; 重置当前的SMBchat副本 &amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt; /help &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt; 显示帮助文档 &amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt; /exit &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt; 退出SMBchat，并向其他人广播 &amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt; /cls &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt; 清空当前会话，并保存 &amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt; /history &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt; 调用已经归档的内容 &amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt; /del &amp;lt;/td&amp;gt; &amp;lt;td&amp;gt; 删除归档的内容 &amp;lt;/td&amp;gt; &amp;lt;/tr&amp;gt;  一些更新 尽管SMBchat已经更新完善，但是仍然存在着许多的问题，欢迎你提出改进的意见和建议，我会在以后的日程中尽力对其进行修补的。</description>
     </item>
     
     <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://AyalaKaguya.github.io/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>制作S-Pixie（皮鞋）cw无线电收发报机</title>
+      <link>https://AyalaKaguya.github.io/post/137/</link>
+      <pubDate>Sat, 20 Jul 2019 07:58:27 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+      <guid>https://AyalaKaguya.github.io/post/137/</guid>
+      <description>开箱！ 收到了快递，立马将快递盒大卸八块。
+准备工作 家境贫寒，真的焊接过程 烙铁真烫手
+安装一些大的组件的照片找不到了还行。。。
+电台测评（雾） 我所制作的是来自某宝的神奇科技，工作频率7023KHz，听说网上一些火腿用这个成功联通浙江和沈阳，但是我觉得这个收发报机并没太大实用价值，灵敏度低，收发不能同频 ，关键是天线很长 ，就算是使用1:4的巴轮，天线的总长度也要达到20.25M（我家屋顶放不下），所以现阶段我无法对这台设备进行调试，更别提测评了????。
+我以后尽量补齐????。
+一些文献 以下内容来自互联网，如有侵权，请联系我删除 —- LXQQFY.com </description>
     </item>
     
     <item>

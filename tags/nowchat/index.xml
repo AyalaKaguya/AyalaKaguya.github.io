@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>nowchat on Paper的小站</title>
+    <link>https://AyalaKaguya.github.io/tags/nowchat/</link>
+    <description>Recent content in nowchat on Paper的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>© 2017-2021 **[Paper的小站](https://papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [苏ICP备20043492号](https://beian.miit.gov.cn/) |</copyright>
+    <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://AyalaKaguya.github.io/tags/nowchat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从Batch到JAVA Script，NowChat的脱胎换骨之路！</title>
+      <link>https://AyalaKaguya.github.io/posts/2020-02-22-%E4%BB%8Ebatch%E5%88%B0javascriptnowchat%E7%9A%84%E8%84%B1%E8%83%8E%E6%8D%A2%E9%AA%A8%E4%B9%8B%E8%B7%AF/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://AyalaKaguya.github.io/posts/2020-02-22-%E4%BB%8Ebatch%E5%88%B0javascriptnowchat%E7%9A%84%E8%84%B1%E8%83%8E%E6%8D%A2%E9%AA%A8%E4%B9%8B%E8%B7%AF/</guid>
+      <description>❗ 警告
+由于小站于近期更新，导致部分或全部功能无法使用，将会陆续恢复，特此告知。
+ 前传： 点击这里，查看首发帖。
+ 2018-08-14 21:20 NowChat Batch Edition正式在百度bat吧公布 2018-08-14 21:31 与吴先森交涉，决定使用自己的服务器 2018-08-14 21:37 用户登陆的种种设想均已完备 2018-08-14 21:53 决定使用GardensKernel进行聊天室开发 2018-08-15 12:02 登陆部分完成 2018-08-15 18:15 对所有的错误指定了错误页 2018-08-15 18:22 更新了账号生成的规则，添加了密码保护 2018-08-18 23:45 完成公共聊天室 某年月日 GK开发到可以使用，准备让NowChat接轨 某年月日 NowChat接轨完成，拥有较完美的GUI 某年月日 为NowChat开发了一些GK专有模块 某年月日 我的硬盘第一次炸 某年月日 我开学了 某年月日 2020年寒假，我重装了系统，但GK和NC开始鸽了 某年月日 我的系统又一次炸，当天重装系统后心血来潮更新NC，但是排版爆炸 2020-02-15 我通过Magic方法找到了Goeasy，正式开始了NC web的开发 2020-02-17 NowChat Web Edition第一个预览版开发完成  正文： CMD版NowChat为什么弃坑？ 这是最后一个CMD版本的NowChat，因为高三的缘故鸽了半年，在之前的帖子中rain提到，我正在开发其他东西，而这“东西”，正是“Gardens Kernel”（以下简称 GK），开发GK的初衷是简化复杂bat项目的构建，而GK正拥有这些特性：
+ 标准ini的读取 众多的模块（包括对第三方的调用） 完整的外部调用能力（调用里面的模块，并且返回） 好用的Debug系统 windows平台统一化  随着GK开发进度的推进，终于迎来了在TE内部的测试，但是测试结果不太理想，三个演示demo中最重要的那个出现了问题，而这问题只有在我的电脑上才正常，测试结果表明，在我的CMD中，没有字符间距，而其他人那里均出现夸张的排版问题，于是GK的开发便告一段落（其实是我自愧不如山归山的“batchhander”）。
+后来在我某次重装系统过后，我再一次打开了NowChat，排版问题出现了：</description>
+    </item>
+    
+  </channel>
+</rss>
