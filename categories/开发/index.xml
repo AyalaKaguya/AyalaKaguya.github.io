@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>开发 on Paper的小站</title>
-    <link>https://AyalaKaguya.github.io/categories/%E5%BC%80%E5%8F%91/</link>
+    <link>https://www.papernote.cn/categories/%E5%BC%80%E5%8F%91/</link>
     <description>Recent content in 开发 on Paper的小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <copyright>© 2017-2021 **[Paper的小站](https://papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [苏ICP备20043492号](https://beian.miit.gov.cn/) |</copyright>
-    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://AyalaKaguya.github.io/categories/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2017-2021 **[Paper的小站](https://www.papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [苏ICP备20043492号](https://beian.miit.gov.cn/) |</copyright>
+    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.papernote.cn/categories/%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>图鉴日图 - 我制作了一些(一个)方便web使用的API</title>
-      <link>https://AyalaKaguya.github.io/posts/2020-09-01-%E5%9B%BE%E9%89%B4%E6%97%A5%E5%9B%BE-%E6%88%91%E5%88%B6%E4%BD%9C%E4%BA%86%E4%B8%80%E4%BA%9B%E6%96%B9%E4%BE%BFweb%E4%BD%BF%E7%94%A8%E7%9A%84api/</link>
+      <link>https://www.papernote.cn/posts/2020-09-01-%E5%9B%BE%E9%89%B4%E6%97%A5%E5%9B%BE-%E6%88%91%E5%88%B6%E4%BD%9C%E4%BA%86%E4%B8%80%E4%BA%9B%E6%96%B9%E4%BE%BFweb%E4%BD%BF%E7%94%A8%E7%9A%84api/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/posts/2020-09-01-%E5%9B%BE%E9%89%B4%E6%97%A5%E5%9B%BE-%E6%88%91%E5%88%B6%E4%BD%9C%E4%BA%86%E4%B8%80%E4%BA%9B%E6%96%B9%E4%BE%BFweb%E4%BD%BF%E7%94%A8%E7%9A%84api/</guid>
+      <guid>https://www.papernote.cn/posts/2020-09-01-%E5%9B%BE%E9%89%B4%E6%97%A5%E5%9B%BE-%E6%88%91%E5%88%B6%E4%BD%9C%E4%BA%86%E4%B8%80%E4%BA%9B%E6%96%B9%E4%BE%BFweb%E4%BD%BF%E7%94%A8%E7%9A%84api/</guid>
       <description>❗ 警告
 由于小站于近期更新，导致部分或全部功能无法使用，将会陆续恢复，特此告知。
  前言 刚创建网站时，我看着我选择的首页大图，如果一成不变，那固然会让人索然乏味，于是我打算随机的获取一张美图。一开始，我瞄上了必应日图，但是苦于没有制作API方面的知识，只能单纯的下载一张图片放上去，久而久之甚是疲惫。后来我在网上也找到一些相关的API，但是它们的访问速度都太慢，小蒋（没错，又是他）就推荐我来到了图鉴的开发组，经过我的了解，他们并没有可以直接获取随机图片的API，我又需要使用他们的接口二次开发，于是这个项目又不了了之。
@@ -41,10 +41,10 @@ raw选项决定返回的是重定向还是图片，当raw=true时，则返回一
     
     <item>
       <title>从Batch到JAVA Script，NowChat的脱胎换骨之路！</title>
-      <link>https://AyalaKaguya.github.io/posts/2020-02-22-%E4%BB%8Ebatch%E5%88%B0javascriptnowchat%E7%9A%84%E8%84%B1%E8%83%8E%E6%8D%A2%E9%AA%A8%E4%B9%8B%E8%B7%AF/</link>
+      <link>https://www.papernote.cn/posts/2020-02-22-%E4%BB%8Ebatch%E5%88%B0javascriptnowchat%E7%9A%84%E8%84%B1%E8%83%8E%E6%8D%A2%E9%AA%A8%E4%B9%8B%E8%B7%AF/</link>
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/posts/2020-02-22-%E4%BB%8Ebatch%E5%88%B0javascriptnowchat%E7%9A%84%E8%84%B1%E8%83%8E%E6%8D%A2%E9%AA%A8%E4%B9%8B%E8%B7%AF/</guid>
+      <guid>https://www.papernote.cn/posts/2020-02-22-%E4%BB%8Ebatch%E5%88%B0javascriptnowchat%E7%9A%84%E8%84%B1%E8%83%8E%E6%8D%A2%E9%AA%A8%E4%B9%8B%E8%B7%AF/</guid>
       <description>❗ 警告
 由于小站于近期更新，导致部分或全部功能无法使用，将会陆续恢复，特此告知。
  前传： 点击这里，查看首发帖。
@@ -55,10 +55,10 @@ raw选项决定返回的是重定向还是图片，当raw=true时，则返回一
     
     <item>
       <title>SMBchat-一个基于SMB协议的聊天软件</title>
-      <link>https://AyalaKaguya.github.io/posts/2019-08-04-smbchat-%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8Esmb%E5%8D%8F%E8%AE%AE%E7%9A%84%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/</link>
+      <link>https://www.papernote.cn/posts/2019-08-04-smbchat-%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8Esmb%E5%8D%8F%E8%AE%AE%E7%9A%84%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/</link>
       <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/posts/2019-08-04-smbchat-%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8Esmb%E5%8D%8F%E8%AE%AE%E7%9A%84%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/</guid>
+      <guid>https://www.papernote.cn/posts/2019-08-04-smbchat-%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8Esmb%E5%8D%8F%E8%AE%AE%E7%9A%84%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/</guid>
       <description>什么是SMB协议？ 这个协议的内容十分的繁冗复杂，具有非常多样化的功能，其作用和原理我就不在这里赘述了，尽管SMBchat只用到其中的星星点点，但配置过程还是很长，我会尽量的将SMBchat的部署和使用过程简化，并放在这篇文章中。
  SMB（Server Message Block）通信协议是微软（Microsoft）和英特尔(Intel)在1987年制定的协议，主要是作为Microsoft网络的通讯协议。
 SMB 是在会话层（session layer）和表示层（presentation layer）以及小部分应用层（application layer）的协议。

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>batch on Paper的小站</title>
-    <link>https://AyalaKaguya.github.io/tags/batch/</link>
+    <link>https://www.papernote.cn/tags/batch/</link>
     <description>Recent content in batch on Paper的小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <copyright>© 2017-2021 **[Paper的小站](https://papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [苏ICP备20043492号](https://beian.miit.gov.cn/) |</copyright>
-    <lastBuildDate>Sun, 04 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://AyalaKaguya.github.io/tags/batch/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2017-2021 **[Paper的小站](https://www.papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [苏ICP备20043492号](https://beian.miit.gov.cn/) |</copyright>
+    <lastBuildDate>Sun, 04 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.papernote.cn/tags/batch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SMBchat-一个基于SMB协议的聊天软件</title>
-      <link>https://AyalaKaguya.github.io/posts/2019-08-04-smbchat-%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8Esmb%E5%8D%8F%E8%AE%AE%E7%9A%84%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/</link>
+      <link>https://www.papernote.cn/posts/2019-08-04-smbchat-%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8Esmb%E5%8D%8F%E8%AE%AE%E7%9A%84%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/</link>
       <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/posts/2019-08-04-smbchat-%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8Esmb%E5%8D%8F%E8%AE%AE%E7%9A%84%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/</guid>
+      <guid>https://www.papernote.cn/posts/2019-08-04-smbchat-%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8Esmb%E5%8D%8F%E8%AE%AE%E7%9A%84%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/</guid>
       <description>什么是SMB协议？ 这个协议的内容十分的繁冗复杂，具有非常多样化的功能，其作用和原理我就不在这里赘述了，尽管SMBchat只用到其中的星星点点，但配置过程还是很长，我会尽量的将SMBchat的部署和使用过程简化，并放在这篇文章中。
  SMB（Server Message Block）通信协议是微软（Microsoft）和英特尔(Intel)在1987年制定的协议，主要是作为Microsoft网络的通讯协议。
 SMB 是在会话层（session layer）和表示层（presentation layer）以及小部分应用层（application layer）的协议。

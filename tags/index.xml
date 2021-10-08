@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Paper的小站</title>
-    <link>https://AyalaKaguya.github.io/tags/</link>
+    <link>https://www.papernote.cn/tags/</link>
     <description>Recent content in Tags on Paper的小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <copyright>© 2017-2021 **[Paper的小站](https://papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [苏ICP备20043492号](https://beian.miit.gov.cn/) |</copyright>
-    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://AyalaKaguya.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2017-2021 **[Paper的小站](https://www.papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [苏ICP备20043492号](https://beian.miit.gov.cn/) |</copyright>
+    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.papernote.cn/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>api</title>
-      <link>https://AyalaKaguya.github.io/tags/api/</link>
+      <link>https://www.papernote.cn/tags/api/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/tags/api/</guid>
+      <guid>https://www.papernote.cn/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>https://AyalaKaguya.github.io/tags/development/</link>
+      <link>https://www.papernote.cn/tags/development/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/tags/development/</guid>
+      <guid>https://www.papernote.cn/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>website</title>
-      <link>https://AyalaKaguya.github.io/tags/website/</link>
+      <link>https://www.papernote.cn/tags/website/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/tags/website/</guid>
+      <guid>https://www.papernote.cn/tags/website/</guid>
       <description></description>
     </item>
     
     <item>
       <title>图鉴日图</title>
-      <link>https://AyalaKaguya.github.io/tags/%E5%9B%BE%E9%89%B4%E6%97%A5%E5%9B%BE/</link>
+      <link>https://www.papernote.cn/tags/%E5%9B%BE%E9%89%B4%E6%97%A5%E5%9B%BE/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/tags/%E5%9B%BE%E9%89%B4%E6%97%A5%E5%9B%BE/</guid>
+      <guid>https://www.papernote.cn/tags/%E5%9B%BE%E9%89%B4%E6%97%A5%E5%9B%BE/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nowchat</title>
-      <link>https://AyalaKaguya.github.io/tags/nowchat/</link>
+      <link>https://www.papernote.cn/tags/nowchat/</link>
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/tags/nowchat/</guid>
+      <guid>https://www.papernote.cn/tags/nowchat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>即时聊天</title>
-      <link>https://AyalaKaguya.github.io/tags/%E5%8D%B3%E6%97%B6%E8%81%8A%E5%A4%A9/</link>
+      <link>https://www.papernote.cn/tags/%E5%8D%B3%E6%97%B6%E8%81%8A%E5%A4%A9/</link>
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/tags/%E5%8D%B3%E6%97%B6%E8%81%8A%E5%A4%A9/</guid>
+      <guid>https://www.papernote.cn/tags/%E5%8D%B3%E6%97%B6%E8%81%8A%E5%A4%A9/</guid>
       <description></description>
     </item>
     
     <item>
       <title>batch</title>
-      <link>https://AyalaKaguya.github.io/tags/batch/</link>
+      <link>https://www.papernote.cn/tags/batch/</link>
       <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/tags/batch/</guid>
+      <guid>https://www.papernote.cn/tags/batch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SMB</title>
-      <link>https://AyalaKaguya.github.io/tags/smb/</link>
+      <link>https://www.papernote.cn/tags/smb/</link>
       <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/tags/smb/</guid>
+      <guid>https://www.papernote.cn/tags/smb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>smbchat</title>
-      <link>https://AyalaKaguya.github.io/tags/smbchat/</link>
+      <link>https://www.papernote.cn/tags/smbchat/</link>
       <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/tags/smbchat/</guid>
+      <guid>https://www.papernote.cn/tags/smbchat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>S-Pixie</title>
-      <link>https://AyalaKaguya.github.io/tags/s-pixie/</link>
+      <link>https://www.papernote.cn/tags/s-pixie/</link>
       <pubDate>Sat, 20 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/tags/s-pixie/</guid>
+      <guid>https://www.papernote.cn/tags/s-pixie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>无线电</title>
-      <link>https://AyalaKaguya.github.io/tags/%E6%97%A0%E7%BA%BF%E7%94%B5/</link>
+      <link>https://www.papernote.cn/tags/%E6%97%A0%E7%BA%BF%E7%94%B5/</link>
       <pubDate>Sat, 20 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://AyalaKaguya.github.io/tags/%E6%97%A0%E7%BA%BF%E7%94%B5/</guid>
+      <guid>https://www.papernote.cn/tags/%E6%97%A0%E7%BA%BF%E7%94%B5/</guid>
       <description></description>
     </item>
     
