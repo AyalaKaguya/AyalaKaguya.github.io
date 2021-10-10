@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.papernote.cn/categories/</loc>
-    <lastmod>2021-10-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.papernote.cn/tags/matlab/</loc>
     <lastmod>2021-10-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,10 +14,13 @@
     <loc>https://www.papernote.cn/</loc>
     <lastmod>2021-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.papernote.cn/posts/</loc>
+    <loc>https://www.papernote.cn/tags/study/</loc>
     <lastmod>2021-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.papernote.cn/tags/study/</loc>
+    <loc>https://www.papernote.cn/categories/</loc>
+    <lastmod>2021-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/posts/</loc>
     <lastmod>2021-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.papernote.cn/tags/</loc>
