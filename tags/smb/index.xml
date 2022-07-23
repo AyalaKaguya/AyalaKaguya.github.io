@@ -5,7 +5,7 @@
     <link>https://www.papernote.cn/tags/smb/</link>
     <description>Recent content in SMB on Paper的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language>
+    <language>zh_CN</language>
     <copyright>© 2017-2021 **[Paper的小站](https://www.papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [苏ICP备20043492号](https://beian.miit.gov.cn/) |</copyright>
     <lastBuildDate>Sun, 04 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.papernote.cn/tags/smb/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -15,36 +15,44 @@
       
       <guid>https://www.papernote.cn/posts/2019-08-04-smbchat-%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8Esmb%E5%8D%8F%E8%AE%AE%E7%9A%84%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/</guid>
       <description>什么是SMB协议？ 这个协议的内容十分的繁冗复杂，具有非常多样化的功能，其作用和原理我就不在这里赘述了，尽管SMBchat只用到其中的星星点点，但配置过程还是很长，我会尽量的将SMBchat的部署和使用过程简化，并放在这篇文章中。
- SMB（Server Message Block）通信协议是微软（Microsoft）和英特尔(Intel)在1987年制定的协议，主要是作为Microsoft网络的通讯协议。
+SMB（Server Message Block）通信协议是微软（Microsoft）和英特尔(Intel)在1987年制定的协议，主要是作为Microsoft网络的通讯协议。
 SMB 是在会话层（session layer）和表示层（presentation layer）以及小部分应用层（application layer）的协议。
 SMB使用了NetBIOS的应用程序接口 （Application Program Interface，简称API），一般端口使用为139，445。
 另外，它是一个开放性的协议，允许了协议扩展——使得它变得更大而且复杂；大约有65个最上层的作业，而每个作业都超过120个函数，甚至Windows NT也没有全部支持到。
 最近微软又把 SMB 改名为 CIFS（CommonInternet File System），并且加入了许多新的特色。
 SMB-百度百科
-  SMBchat的由来 Paper的小故事时间（雾）
- 时间推至怀仁18年的新高一，两个新人正对着FTP指指点点。
+SMBchat的由来 Paper的小故事时间（雾）
+时间推至怀仁18年的新高一，两个新人正对着FTP指指点点。
 “你配置FTP的速度还能再快点吗？”刚下课的小王失落的对小明说。
 “三分半，不能再少了。”
 “可是每次我都觉得，这已经半节课过去了。”
-片段一   一个星期过去了，又是那节信息技术课。
+片段一 一个星期过去了，又是那节信息技术课。
 “你这FTP服务端不行啊！”刚刚掉线的小明对小王说。
 “已经可以在一分钟之内开启共享了，还有什么不足的吗？”
 “老是要掉线，传输速度也慢，莫名其妙会弹出用户无法登录。”
 “那你有更好的解决办法吗？”疑惑的小王对小明说。
 “SMB共享文件吧，虽然我不知道怎么用。”
-片段二   又是一个星期过去了，但不是那节信息课
+片段二 又是一个星期过去了，但不是那节信息课
 “这SMB共享有点强啊！”
 “怎么了？”
 “根据我的使用情况来看，速度快，稳定性强，但是，最重要的是可以直接编辑上面的文件！”
 “正常。”
 “我感觉我可以写个聊天软件”
-片段三  谁也不知道为啥要在学校上信息技术课的时候共享文件。
+片段三 谁也不知道为啥要在学校上信息技术课的时候共享文件。
 好吧，话不多说，其实就是为了能在课上可以联系到彼此还有玩游戏才搞的这么一个共享，我记得当时我们是在目录中通过修改文件名的办法来进行交谈的，在以后的几节课中，我利用闲暇时光，制作了这么一个软件的早期版本。
 然后一直到了高二，我与小明不再是一个班了，但是我又认识了一位有点底子的人，于是，我又重新开始了SMBchat的制作，并推广到了全班（老师：MMP），最终有了现在这么一个版本。
- SMBchat使用效果 传统的UI界面
+SMBchat使用效果 传统的UI界面
 分离式UI界面
 功能丰富的菜单
- 使用SMBchat前需注意的事项  系统：Windows 2000 ~ Windows 10 （在更新的版本中，对系统的支持将从Windows 7开始）</description>
+使用SMBchat前需注意的事项 系统：Windows 2000 ~ Windows 10 （在更新的版本中，对系统的支持将从Windows 7开始）
+内存：最低256MB
+硬盘空间：最低1MB
+网络：需要开放443端口，并拥有IP地址
+其他：需知道主机的名称
+❗ 警告！
+受最近永恒之蓝等病毒的影响，部分运营商已关闭外网的445端口，您无法使用SMBchat在外网交谈，但一定程度上保护了你的电脑免受这类病毒的侵扰，尽管如此，当你不使用SMBchat时，请尽量确保你的445端口在不使用SMB时不是打开状态
+下载SMBchat 目前只提供了GitHub的下载方式，点击下面的链接，即可访问SMBchat的库。
+https://github.com/AyalaKaguya/SMBchat</description>
     </item>
     
   </channel>

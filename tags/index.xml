@@ -5,9 +5,54 @@
     <link>https://www.papernote.cn/tags/</link>
     <description>Recent content in 标签 on Paper的小站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language>
+    <language>zh_CN</language>
     <copyright>© 2017-2021 **[Paper的小站](https://www.papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [苏ICP备20043492号](https://beian.miit.gov.cn/) |</copyright>
-    <lastBuildDate>Sat, 16 Apr 2022 20:44:17 +0800</lastBuildDate><atom:link href="https://www.papernote.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jul 2022 23:09:17 +0800</lastBuildDate><atom:link href="https://www.papernote.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arduino</title>
+      <link>https://www.papernote.cn/tags/arduino/</link>
+      <pubDate>Fri, 22 Jul 2022 23:09:17 +0800</pubDate>
+      
+      <guid>https://www.papernote.cn/tags/arduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESP32</title>
+      <link>https://www.papernote.cn/tags/esp32/</link>
+      <pubDate>Fri, 22 Jul 2022 23:09:17 +0800</pubDate>
+      
+      <guid>https://www.papernote.cn/tags/esp32/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FreeRTOS</title>
+      <link>https://www.papernote.cn/tags/freertos/</link>
+      <pubDate>Fri, 22 Jul 2022 23:09:17 +0800</pubDate>
+      
+      <guid>https://www.papernote.cn/tags/freertos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>单片机</title>
+      <link>https://www.papernote.cn/tags/%E5%8D%95%E7%89%87%E6%9C%BA/</link>
+      <pubDate>Fri, 22 Jul 2022 23:09:17 +0800</pubDate>
+      
+      <guid>https://www.papernote.cn/tags/%E5%8D%95%E7%89%87%E6%9C%BA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>笔记</title>
+      <link>https://www.papernote.cn/tags/%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Fri, 22 Jul 2022 23:09:17 +0800</pubDate>
+      
+      <guid>https://www.papernote.cn/tags/%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Anaconda</title>
       <link>https://www.papernote.cn/tags/anaconda/</link>
@@ -32,15 +77,6 @@
       <pubDate>Sat, 16 Apr 2022 20:44:17 +0800</pubDate>
       
       <guid>https://www.papernote.cn/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>笔记</title>
-      <link>https://www.papernote.cn/tags/%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Sat, 16 Apr 2022 20:44:17 +0800</pubDate>
-      
-      <guid>https://www.papernote.cn/tags/%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     
@@ -77,6 +113,33 @@
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.papernote.cn/tags/study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bilibili</title>
+      <link>https://www.papernote.cn/tags/bilibili/</link>
+      <pubDate>Sun, 25 Oct 2020 23:09:17 +0800</pubDate>
+      
+      <guid>https://www.papernote.cn/tags/bilibili/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ctf</title>
+      <link>https://www.papernote.cn/tags/ctf/</link>
+      <pubDate>Sun, 25 Oct 2020 23:09:17 +0800</pubDate>
+      
+      <guid>https://www.papernote.cn/tags/ctf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sec1024</title>
+      <link>https://www.papernote.cn/tags/sec1024/</link>
+      <pubDate>Sun, 25 Oct 2020 23:09:17 +0800</pubDate>
+      
+      <guid>https://www.papernote.cn/tags/sec1024/</guid>
       <description></description>
     </item>
     

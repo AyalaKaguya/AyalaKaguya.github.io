@@ -2,10 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.papernote.cn/tags/anaconda/</loc>
-    <lastmod>2022-04-16T20:44:17+08:00</lastmod>
+    <loc>https://www.papernote.cn/tags/arduino/</loc>
+    <lastmod>2022-07-22T23:09:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/tags/esp32/</loc>
+    <lastmod>2022-07-22T23:09:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/tags/freertos/</loc>
+    <lastmod>2022-07-22T23:09:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/posts/2022-07-22-freertos%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-07-22T23:09:17+08:00</lastmod>
   </url><url>
     <loc>https://www.papernote.cn/</loc>
+    <lastmod>2022-07-22T23:09:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/categories/</loc>
+    <lastmod>2022-07-22T23:09:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/tags/%E5%8D%95%E7%89%87%E6%9C%BA/</loc>
+    <lastmod>2022-07-22T23:09:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/categories/%E5%8D%95%E7%89%87%E6%9C%BA/</loc>
+    <lastmod>2022-07-22T23:09:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/posts/</loc>
+    <lastmod>2022-07-22T23:09:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/tags/</loc>
+    <lastmod>2022-07-22T23:09:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-07-22T23:09:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/tags/anaconda/</loc>
     <lastmod>2022-04-16T20:44:17+08:00</lastmod>
   </url><url>
     <loc>https://www.papernote.cn/tags/pytorch/</loc>
@@ -14,22 +44,10 @@
     <loc>https://www.papernote.cn/posts/2022-04-16-pytorch%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%AE%89%E8%A3%85anaconda-pytorch/</loc>
     <lastmod>2022-04-16T20:44:17+08:00</lastmod>
   </url><url>
-    <loc>https://www.papernote.cn/categories/</loc>
-    <lastmod>2022-04-16T20:44:17+08:00</lastmod>
-  </url><url>
-    <loc>https://www.papernote.cn/posts/</loc>
-    <lastmod>2022-04-16T20:44:17+08:00</lastmod>
-  </url><url>
     <loc>https://www.papernote.cn/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2022-04-16T20:44:17+08:00</lastmod>
   </url><url>
     <loc>https://www.papernote.cn/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2022-04-16T20:44:17+08:00</lastmod>
-  </url><url>
-    <loc>https://www.papernote.cn/tags/</loc>
-    <lastmod>2022-04-16T20:44:17+08:00</lastmod>
-  </url><url>
-    <loc>https://www.papernote.cn/tags/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2022-04-16T20:44:17+08:00</lastmod>
   </url><url>
     <loc>https://www.papernote.cn/posts/2021-10-12-%E5%88%A9%E7%94%A8%E7%89%9B%E9%A1%BF%E6%B3%95%E6%B1%82%E8%A7%A3%E5%BC%80%E6%96%B9-copy/</loc>
@@ -55,6 +73,21 @@
   </url><url>
     <loc>https://www.papernote.cn/tags/study/</loc>
     <lastmod>2021-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/posts/2020-10-25-bilibili-sec1024/</loc>
+    <lastmod>2020-10-25T23:09:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/tags/bilibili/</loc>
+    <lastmod>2020-10-25T23:09:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/tags/ctf/</loc>
+    <lastmod>2020-10-25T23:09:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/categories/ctf/</loc>
+    <lastmod>2020-10-25T23:09:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.papernote.cn/tags/sec1024/</loc>
+    <lastmod>2020-10-25T23:09:17+08:00</lastmod>
   </url><url>
     <loc>https://www.papernote.cn/tags/api/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
