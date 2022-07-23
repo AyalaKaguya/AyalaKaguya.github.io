@@ -22,12 +22,11 @@
 下载完成后双击安装包安装 接下来一路Next-&amp;gt;I Agree-&amp;gt;Next-&amp;gt;Next ▲ 应该没人用多用户吧（比如跑在服务器上 接下来这一步有两个选项，不够我在这里给个小建议，当然你们也可以根据实际情况自己选择：
 当你电脑里没有Python：建议全选 当你电脑里有python,但版本号与选项2给出的版本不一致：建议全选 当你电脑里有Python，但版本号与选项2给出的版本一致：建议只选第一项 当然你可以都不选(建议电脑里面没有预先安装的Python)，在后期自己添加环境变量（详见教程ep 1，请记住上一步的安装位置） 查看python版本号,在这里只看前两位：
 1 python -V # Python 3.9.7 选好之后点击Install,然后就是Next-&amp;gt;Next-&amp;gt;Finish
-接下来弹出一个PyCharm的广告，虽然我自己用的VS Code，不过PyCharm社区版免费，也挺好用的，何乐而不为呢？ 接下来两个勾勾都取消然后就可以Finish啦。 step 2 创建并配置conda环境 当Anaconda被正确安装之后，我们需要执行conda init命令来应用环境。
-1 conda init 接下来我们创建一个名为torch的环境，使用Python3.9
-1 conda create -n torch python=3.9 使用这条指令创建的环境将只包含一些基础且必须的包（比如pip等），如果你需要额外安装其他的东西（比如numpy或者jupyter等），你需要在命令的末尾添加anaconda，这里我们并不需要这么做。 在执行过程中可能需要联网下载一些文件，速度比较慢的话请耐心等待。
+接下来弹出一个PyCharm的广告，虽然我自己用的VS Code，不过PyCharm社区版免费，也挺好用的，何乐而不为呢？ 接下来两个勾勾都取消然后就可以Finish啦。 step 2 创建并配置conda环境 当Anaconda被正确安装之后，首先打开你的命令行软件（CMD或者PowerShell），我们需要执行conda init命令来应用环境。
+1 $ conda init 接下来我们创建一个名为torch的环境，使用Python3.9
+1 $ conda create -n torch python=3.9 使用这条指令创建的环境将只包含一些基础且必须的包（比如pip等），如果你需要额外安装其他的东西（比如numpy或者jupyter等），你需要在命令的末尾添加anaconda，这里我们并不需要这么做。 在执行过程中可能需要联网下载一些文件，速度比较慢的话请耐心等待。
 接着我们激活这个环境，当显示以下图片即意味着conda环境创建成功了
-1 conda activate torch 常用conda指令见ep 3
-step 3 安装PyTorch 写作规划 (该部分尚未完成) 区分显卡类型</description>
+1 $ conda activate torch 常用conda指令见ep 3</description>
     </item>
     
   </channel>
