@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>development on Paper的小站</title>
+    <link>https://www.papernote.cn/tags/development/</link>
+    <description>Recent content in development on Paper的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh_CN</language>
+    <copyright>© 2017-2021 **[Paper的小站](https://www.papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [苏ICP备20043492号](https://beian.miit.gov.cn/) |</copyright>
+    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.papernote.cn/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>图鉴日图 - 我制作了一些(一个)方便web使用的API</title>
+      <link>https://www.papernote.cn/posts/2020-09-01-%E5%9B%BE%E9%89%B4%E6%97%A5%E5%9B%BE-%E6%88%91%E5%88%B6%E4%BD%9C%E4%BA%86%E4%B8%80%E4%BA%9B%E6%96%B9%E4%BE%BFweb%E4%BD%BF%E7%94%A8%E7%9A%84api/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.papernote.cn/posts/2020-09-01-%E5%9B%BE%E9%89%B4%E6%97%A5%E5%9B%BE-%E6%88%91%E5%88%B6%E4%BD%9C%E4%BA%86%E4%B8%80%E4%BA%9B%E6%96%B9%E4%BE%BFweb%E4%BD%BF%E7%94%A8%E7%9A%84api/</guid>
+      <description>❗ 警告
+由于小站于近期更新，导致部分或全部功能无法使用，将会陆续恢复，特此告知。
+前言 刚创建网站时，我看着我选择的首页大图，如果一成不变，那固然会让人索然乏味，于是我打算随机的获取一张美图。一开始，我瞄上了必应日图，但是苦于没有制作API方面的知识，只能单纯的下载一张图片放上去，久而久之甚是疲惫。后来我在网上也找到一些相关的API，但是它们的访问速度都太慢，小蒋（没错，又是他）就推荐我来到了图鉴的开发组，经过我的了解，他们并没有可以直接获取随机图片的API，我又需要使用他们的接口二次开发，于是这个项目又不了了之。
+今年夏天，我自学了一点C#，参与到了图鉴的开发当中，制作了一个还不错的桌面版图鉴的内核，也了解到了不少API调用方面的知识。于是，我便打算重新开始这个项目。
+关于图鉴 图鉴日图（Dailypics）是一个人工精选日图的壁纸软件。每天清晨，从用户上传图片中选出两张作为今日日图，小而不杂。
+在酷安上查看： API文档 随机选图 GET https://papernote.cn/dpic/random.php
+Args:
+type : *图片类型 &amp;ldquo;pc/mobile&amp;rdquo; raw : *是否以代理方式返回图片，false时会返回一个301 type参数可以指定“pc”或者“mobile”来输出适合指定设备浏览的图片，当不指定或者选择了错误的选项，则返回完全随机的图片。
+raw选项决定返回的是重定向还是图片，当raw=true时，则返回一张图片，反之，则重定向到图鉴的图床服务器，该参数默认为false。
+调用示例：
+https://papernote.cn/dpic/random.php?type=pc&amp;amp;raw=true https://papernote.cn/dpic/random.php?type=mobile&amp;amp;raw=true https://papernote.cn/dpic/random.php?type=pc https://papernote.cn/dpic/random.php?raw=true https://papernote.cn/dpic/random.php 搜索图片 ❗ 注意
+最近CDN有些抽风，有些样式炸了，呜呜呜。
+搜索图片的话我直接制作了一个网页版，图鉴自带的API我就不放出来了。传送门（API）
+（话说官网的搜索什么时候更新啊喂）
+没事没事，自己写个假的压压惊。
+根据PID获取指定图片（高级功能，需有能力获取PID） 这目前是我个人拿来做图床的功能，以后会在搜索图片中添加图片的详细信息。
+来自未来的Ayala：这个做了，但是效果不好于是没拿出来
+注意事项 接口调用
+1M的小水管，如果实在嫌太慢，就不要打开raw开关了亲。如果因为跨域（无论是本域名还是图床域名）而无法访问，请在评论区联系我，我将在第一时间解决。
+图源免责
+图片来自图鉴用户的投稿，与图鉴(Dailypics)和本站(papernote.cn)无关，若用户的行为侵犯了著作权人的合法权利，请联系：Chimon@Chimon.me，我们将第一时间解决。
+为爱发电
+图鉴的制作人也挺辛苦的，欢迎你们为Createlite发电！</description>
+    </item>
+    
+    <item>
+      <title>从Batch到JAVA Script，NowChat的脱胎换骨之路！</title>
+      <link>https://www.papernote.cn/posts/2020-02-22-%E4%BB%8Ebatch%E5%88%B0javascriptnowchat%E7%9A%84%E8%84%B1%E8%83%8E%E6%8D%A2%E9%AA%A8%E4%B9%8B%E8%B7%AF/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.papernote.cn/posts/2020-02-22-%E4%BB%8Ebatch%E5%88%B0javascriptnowchat%E7%9A%84%E8%84%B1%E8%83%8E%E6%8D%A2%E9%AA%A8%E4%B9%8B%E8%B7%AF/</guid>
+      <description>❗ 警告
+由于小站于近期更新，导致部分或全部功能无法使用，将会陆续恢复，特此告知。
+前传： 点击这里，查看首发帖。
+2018-08-14 21:20 NowChat Batch Edition正式在百度bat吧公布 2018-08-14 21:31 与吴先森交涉，决定使用自己的服务器 2018-08-14 21:37 用户登陆的种种设想均已完备 2018-08-14 21:53 决定使用GardensKernel进行聊天室开发 2018-08-15 12:02 登陆部分完成 2018-08-15 18:15 对所有的错误指定了错误页 2018-08-15 18:22 更新了账号生成的规则，添加了密码保护 2018-08-18 23:45 完成公共聊天室 某年月日 GK开发到可以使用，准备让NowChat接轨 某年月日 NowChat接轨完成，拥有较完美的GUI 某年月日 为NowChat开发了一些GK专有模块 某年月日 我的硬盘第一次炸 某年月日 我开学了 某年月日 2020年寒假，我重装了系统，但GK和NC开始鸽了 某年月日 我的系统又一次炸，当天重装系统后心血来潮更新NC，但是排版爆炸 2020-02-15 我通过Magic方法找到了Goeasy，正式开始了NC web的开发 2020-02-17 NowChat Web Edition第一个预览版开发完成 正文： CMD版NowChat为什么弃坑？ 这是最后一个CMD版本的NowChat，因为高三的缘故鸽了半年，在之前的帖子中rain提到，我正在开发其他东西，而这“东西”，正是“Gardens Kernel”（以下简称 GK），开发GK的初衷是简化复杂bat项目的构建，而GK正拥有这些特性：
+标准ini的读取 众多的模块（包括对第三方的调用） 完整的外部调用能力（调用里面的模块，并且返回） 好用的Debug系统 windows平台统一化 随着GK开发进度的推进，终于迎来了在TE内部的测试，但是测试结果不太理想，三个演示demo中最重要的那个出现了问题，而这问题只有在我的电脑上才正常，测试结果表明，在我的CMD中，没有字符间距，而其他人那里均出现夸张的排版问题，于是GK的开发便告一段落（其实是我自愧不如山归山的“batchhander”）。
+后来在我某次重装系统过后，我再一次打开了NowChat，排版问题出现了：
+这可能是导致NowChat工程项目再一次搁浅的间接原因，还有一部分原因是因为学业繁忙。
+WEB版NowChat，NC的春天？ 不过没想到今年的寒假会那么的长，于是我便开发了NowChat的WEB版，不过这个WEB版只经历了三天左右的开发周期，经由TE和init的内部测试，尚且有许多bug（比如说网页劫持啊，登陆故障啊，移动设备兼容啊等等）。
+开发过程中，我依然采用MDUI作为网页框架 ,而网络部分使用了基于WebSocket的Goeasy(话说回来，Goeasy开发聊天室是真的方便！)，至于排版，emmmmm……不喜勿喷！我最终的目标是在小屏设备上，这个聊天室可以撑满整个页面，目前宽度已做了响应式，但是影响原先排版，高度打算让js来，但如果MDUI有原生解决方案就最好了。</description>
+    </item>
+    
+    <item>
+      <title>SMBchat-一个基于SMB协议的聊天软件</title>
+      <link>https://www.papernote.cn/posts/2019-08-04-smbchat-%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8Esmb%E5%8D%8F%E8%AE%AE%E7%9A%84%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/</link>
+      <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.papernote.cn/posts/2019-08-04-smbchat-%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8Esmb%E5%8D%8F%E8%AE%AE%E7%9A%84%E8%81%8A%E5%A4%A9%E8%BD%AF%E4%BB%B6/</guid>
+      <description>什么是SMB协议？ 这个协议的内容十分的繁冗复杂，具有非常多样化的功能，其作用和原理我就不在这里赘述了，尽管SMBchat只用到其中的星星点点，但配置过程还是很长，我会尽量的将SMBchat的部署和使用过程简化，并放在这篇文章中。
+SMB（Server Message Block）通信协议是微软（Microsoft）和英特尔(Intel)在1987年制定的协议，主要是作为Microsoft网络的通讯协议。
+SMB 是在会话层（session layer）和表示层（presentation layer）以及小部分应用层（application layer）的协议。
+SMB使用了NetBIOS的应用程序接口 （Application Program Interface，简称API），一般端口使用为139，445。
+另外，它是一个开放性的协议，允许了协议扩展——使得它变得更大而且复杂；大约有65个最上层的作业，而每个作业都超过120个函数，甚至Windows NT也没有全部支持到。
+最近微软又把 SMB 改名为 CIFS（CommonInternet File System），并且加入了许多新的特色。
+SMB-百度百科
+SMBchat的由来 Paper的小故事时间（雾）
+时间推至怀仁18年的新高一，两个新人正对着FTP指指点点。
+“你配置FTP的速度还能再快点吗？”刚下课的小王失落的对小明说。
+“三分半，不能再少了。”
+“可是每次我都觉得，这已经半节课过去了。”
+片段一 一个星期过去了，又是那节信息技术课。
+“你这FTP服务端不行啊！”刚刚掉线的小明对小王说。
+“已经可以在一分钟之内开启共享了，还有什么不足的吗？”
+“老是要掉线，传输速度也慢，莫名其妙会弹出用户无法登录。”
+“那你有更好的解决办法吗？”疑惑的小王对小明说。
+“SMB共享文件吧，虽然我不知道怎么用。”
+片段二 又是一个星期过去了，但不是那节信息课
+“这SMB共享有点强啊！”
+“怎么了？”
+“根据我的使用情况来看，速度快，稳定性强，但是，最重要的是可以直接编辑上面的文件！”
+“正常。”
+“我感觉我可以写个聊天软件”
+片段三 谁也不知道为啥要在学校上信息技术课的时候共享文件。
+好吧，话不多说，其实就是为了能在课上可以联系到彼此还有玩游戏才搞的这么一个共享，我记得当时我们是在目录中通过修改文件名的办法来进行交谈的，在以后的几节课中，我利用闲暇时光，制作了这么一个软件的早期版本。
+然后一直到了高二，我与小明不再是一个班了，但是我又认识了一位有点底子的人，于是，我又重新开始了SMBchat的制作，并推广到了全班（老师：MMP），最终有了现在这么一个版本。
+SMBchat使用效果 传统的UI界面
+分离式UI界面
+功能丰富的菜单
+使用SMBchat前需注意的事项 系统：Windows 2000 ~ Windows 10 （在更新的版本中，对系统的支持将从Windows 7开始）
+内存：最低256MB
+硬盘空间：最低1MB
+网络：需要开放443端口，并拥有IP地址
+其他：需知道主机的名称
+❗ 警告！
+受最近永恒之蓝等病毒的影响，部分运营商已关闭外网的445端口，您无法使用SMBchat在外网交谈，但一定程度上保护了你的电脑免受这类病毒的侵扰，尽管如此，当你不使用SMBchat时，请尽量确保你的445端口在不使用SMB时不是打开状态
+下载SMBchat 目前只提供了GitHub的下载方式，点击下面的链接，即可访问SMBchat的库。
+https://github.com/AyalaKaguya/SMBchat</description>
+    </item>
+    
+  </channel>
+</rss>

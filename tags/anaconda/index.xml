@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Anaconda on Paper的小站</title>
+    <link>https://www.papernote.cn/tags/anaconda/</link>
+    <description>Recent content in Anaconda on Paper的小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh_CN</language>
+    <copyright>© 2017-2021 **[Paper的小站](https://www.papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [苏ICP备20043492号](https://beian.miit.gov.cn/) |</copyright>
+    <lastBuildDate>Sat, 16 Apr 2022 20:44:17 +0800</lastBuildDate><atom:link href="https://www.papernote.cn/tags/anaconda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pytorch学习笔记 - 安装Anaconda&amp;PyTorch</title>
+      <link>https://www.papernote.cn/posts/2022-04-16-pytorch%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%AE%89%E8%A3%85anaconda-pytorch/</link>
+      <pubDate>Sat, 16 Apr 2022 20:44:17 +0800</pubDate>
+      
+      <guid>https://www.papernote.cn/posts/2022-04-16-pytorch%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E5%AE%89%E8%A3%85anaconda-pytorch/</guid>
+      <description>❗ 注意
+这篇文章有部分尚未完成。
+先看网址 PyTorch https://pytorch.org/ Anaconda https://www.anaconda.com/ PyCharm （可选） https://www.jetbrains.com/pycharm/ 本站不提供镜像
+安装思路 Anaconda是一个Python发行版，使用Anaconda做环境分隔可以解决很多环境干扰问题（不搞base环境的话基本上没啥大问题），我们将在Anaconda创建一个虚拟环境，然后在这个虚拟环境上安装PyTorch，并测试这个PyTorch环境。
+安装步骤 step 1 下载并安装Anaconda 打开Anaconda网站，并点击“Download”， 可能会下的有点慢，可以选择使用迅雷加速
+下载完成后双击安装包安装 接下来一路Next-&amp;gt;I Agree-&amp;gt;Next-&amp;gt;Next ▲ 应该没人用多用户吧（比如跑在服务器上 接下来这一步有两个选项，不够我在这里给个小建议，当然你们也可以根据实际情况自己选择：
+当你电脑里没有Python：建议全选 当你电脑里有python,但版本号与选项2给出的版本不一致：建议全选 当你电脑里有Python，但版本号与选项2给出的版本一致：建议只选第一项 当然你可以都不选(建议电脑里面没有预先安装的Python)，在后期自己添加环境变量（详见教程ep 1，请记住上一步的安装位置） 查看python版本号,在这里只看前两位：
+1 python -V # Python 3.9.7 选好之后点击Install,然后就是Next-&amp;gt;Next-&amp;gt;Finish
+接下来弹出一个PyCharm的广告，虽然我自己用的VS Code，不过PyCharm社区版免费，也挺好用的，何乐而不为呢？ 接下来两个勾勾都取消然后就可以Finish啦。 step 2 创建并配置conda环境 当Anaconda被正确安装之后，我们需要执行conda init命令来应用环境。
+1 conda init 接下来我们创建一个名为torch的环境，使用Python3.9
+1 conda create -n torch python=3.9 使用这条指令创建的环境将只包含一些基础且必须的包（比如pip等），如果你需要额外安装其他的东西（比如numpy或者jupyter等），你需要在命令的末尾添加anaconda，这里我们并不需要这么做。 在执行过程中可能需要联网下载一些文件，速度比较慢的话请耐心等待。
+接着我们激活这个环境，当显示以下图片即意味着conda环境创建成功了
+1 conda activate torch 常用conda指令见ep 3
+step 3 安装PyTorch 写作规划 (该部分尚未完成) 区分显卡类型</description>
+    </item>
+    
+  </channel>
+</rss>
