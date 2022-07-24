@@ -15,17 +15,18 @@
       
       <guid>https://www.papernote.cn/posts/2022-07-22-freertos%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-api%E8%A7%84%E8%8C%83%E8%AE%B0%E5%BD%95/</guid>
       <description>❗ 注意
-这篇文章处于早期编写时期。 文章内容较长且多为字典用途，请结合上面的目录使用。
-Ayala看b站UP主孤独的二进制的FreeRTOS教学视频有感，打算对视频内容进行一些总结和归纳，方便以后的使用。
+文章内容较长且多为字典用途，请结合上面的目录使用。
+Ayala看b站UP主孤独的二进制的FreeRTOS教学视频有感，打算对视频内容进行一些总结和归纳，方便以后的使用，遂有此篇。
 为什么要使用RTOS （Real-Time Operating System,RTOS）即实时操作系统，通常应用于嵌入式等对实时性要求较高的产品中，它会按照排序运行、管理系统资源，并为开发应用程序提供一致的基础。 实时操作系统与一般的操作系统相比，最大的特色就是“实时性”，如果有一个任务需要执行，实时操作系统会马上（在较短时间内）执行该任务，不会有较长的延时。这种特性保证了各个任务的及时执行。
 FreeRTOS与Arduino框架的区别 在ESP32平台上，Arduino是运行在RTOS上的一个任务（Task），分为设置代码setup()和基础循环loop()，其在RTOS中的表示大概是这样的：
 1 2 3 4 5 6 7 8 9 10 11 void task_arduino(void* ptParam) { setup() for (;;) { loop() } } void app_main() { xTaskCreatePinnedToCore(task_arduino,&amp;#34;arduino&amp;#34;,1024*128,NULL,1,NULL,1) // 以上一条代码不需要管 } 而一个标准的Arduino的程序看起来是这样的：
 1 2 3 4 5 6 void setup() { ... } void loop() { ... } 使用Arduino-ESP32这个库会将上述代码代入前一个代码，所以即便你可能用的是ArduinoIDE，但是实际上仍会被翻译成ESP-IDF项目，所以你可以在你的Arduino-ESP32项目中使用FreeRTOS。
 FreeRTOS有什么API需要注意 💬 引用：
-b站 孤独的二进制：有部分的介绍来自于此
-ESP32文档和FreeRTOS的文档：函数原型、参数、返回值等的描述
+b站 孤独的二进制：有相当部分的内容来自于此
+ESP32文档和FreeRTOS的文档翻译：函数原型、参数、返回值等的描述
 可能还有一些没标注到的，请在评论区联系我。
-创建、删除任务，任务绑定核心 xTaskCreate 创建任务</description>
+创建、删除任务，任务绑定核心 xTaskCreate 创建任务
+1 2 3 4 5 6 7 8 BaseType_t xTaskCreate( TaskFunction_t pvTaskCode, const char * const pcName, configSTACK_DEPTH_TYPE usStackDepth, void *pvParameters, UBaseType_t uxPriority, TaskHandle_t *pxCreatedTask ); 参数 功能 注意点 pvTaskCode 任务函数 传入一个函数指针，函数需要一个空类型指针作为参数 pcName 任务名 传入一个字符串 usStackDepth 任务栈大小 即内存空间，一般的写法为1024*n（n为任务需求的内存大小） pvParameters 任务参数 使用空类型指针，可以传结构体指针，只要前面加上(void *)进行强制类型转换，但是在任务内部仍需转换回来 uxPriority 任务优先级 一般是0-24，24为最高优先级，如果高优先级任务不block或者暂停，那么低优先级任务永不执行 pxCreatedTask 任务句柄 用于控制这个任务，比如删除、暂停、设置优先级等 返回值 意义 pdPass 表示任务已经创建成功 errCOULD_NOT_ALLOCATE_REQUIRED_MEMORY 表示无法创建任务，因为FreeRTOS没有足够的堆内存来分配任务数据结构和堆栈 xTaskCreatePinnedToCore 在指定核心上创建任务。</description>
     </item>
     
   </channel>
