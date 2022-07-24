@@ -2,7 +2,7 @@
 这篇文章处于早期编写时期。 文章内容较长且多为字典用途，请结合上面的目录使用。
 Ayala看b站UP主孤独的二进制的FreeRTOS教学视频有感，打算对视频内容进行一些总结和归纳，方便以后的使用。
 为什么要使用RTOS （Real-Time Operating System,RTOS）即实时操作系统，通常应用于嵌入式等对实时性要求较高的产品中，它会按照排序运行、管理系统资源，并为开发应用程序提供一致的基础。 实时操作系统与一般的操作系统相比，最大的特色就是“实时性”，如果有一个任务需要执行，实时操作系统会马上（在较短时间内）执行该任务，不会有较长的延时。这种特性保证了各个任务的及时执行。
-FreeRTOS与Arduino的区别 在ESP32平台上，Arduino是运行在RTOS上的一个任务（Task），分为设置代码setup()和基础循环loop()，其在RTOS中的表示大概是这样的：
+FreeRTOS与Arduino框架的区别 在ESP32平台上，Arduino是运行在RTOS上的一个任务（Task），分为设置代码setup()和基础循环loop()，其在RTOS中的表示大概是这样的：
 1 2 3 4 5 6 7 8 9 10 11 void task_arduino(void* ptParam) { setup() for (;;) { loop() } } void app_main() { xTaskCreatePinnedToCore(task_arduino,"arduino",1024*128,NULL,1,NULL,1) // 以上一条代码不需要管 } 而一个标准的Arduino的程序看起来是这样的：
 1 2 3 4 5 6 void setup() { ... } void loop() { ... } 使用Arduino-ESP32这个库会将上述代码代入前一个代码，所以即便你可能用的是ArduinoIDE，但是实际上仍会被翻译成ESP-IDF项目，所以你可以在你的Arduino-ESP32项目中使用FreeRTOS。
 FreeRTOS有什么API需要注意 💬 引用：
