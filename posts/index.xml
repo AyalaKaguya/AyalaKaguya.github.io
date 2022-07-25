@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh_CN</language>
     <copyright>© 2017-2021 **[Paper的小站](https://www.papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [苏ICP备20043492号](https://beian.miit.gov.cn/) |</copyright>
-    <lastBuildDate>Fri, 22 Jul 2022 23:09:17 +0800</lastBuildDate><atom:link href="https://www.papernote.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jul 2022 09:30:17 +0800</lastBuildDate><atom:link href="https://www.papernote.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于Minecraft NBT的一些记录</title>
+      <link>https://www.papernote.cn/posts/2022-07-25-%E5%85%B3%E4%BA%8Eminecraft-nbt%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Mon, 25 Jul 2022 09:30:17 +0800</pubDate>
+      
+      <guid>https://www.papernote.cn/posts/2022-07-25-%E5%85%B3%E4%BA%8Eminecraft-nbt%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AE%B0%E5%BD%95/</guid>
+      <description>偶然看到电脑里存的一份记录着Minecraft NBT用法的文本文档，干脆拿过来当文章了（恼
+都有些啥？ 在一个大的json里套了一堆东西，如果写TypeScript表示那更好，但可惜不想写（懒
+大部分都是从minecraft fandom找的
+附魔 Enchantments 1 2 3 4 5 6 { Enchantments:[ {id:&amp;#34;魔咒ID&amp;#34;,lvl:#魔咒等级}, {id:&amp;#34;魔咒ID&amp;#34;,lvl:#魔咒等级} ] } 类型: List
+字段定义:
+字段名 类型 意义 id String 魔咒的id lvl uint8_t（雾） 魔咒的等级 名称显示 display 1 2 3 4 5 6 7 { display:{ Name:&amp;#34;物品名称的JSON文本&amp;#34;, color:&amp;#34;颜色代码&amp;#34;, Lore:[&amp;#34;第一行&amp;#34;,&amp;#34;第二行&amp;#34;] } } 类型: Object
+字段定义:
+字段名 类型 意义 Name String 物品名称的JSON文本 Color String with int 颜色代码 Lore List of String 物品描述 属性 AttributeModifiers 1 2 3 4 5 6 { AttributeModifiers:[ {AttributeName:&amp;#34;#&amp;#34;,Name:&amp;#34;#&amp;#34;,Amount:#,Operation:#,UUID:[I;#,#,#,#],Slot:#}, {AttributeName:&amp;#34;#&amp;#34;,Name:&amp;#34;#&amp;#34;,Amount:#,Operation:#,UUID:[I;#,#,#,#],Slot:#} ] } 类型: List</description>
+    </item>
+    
     <item>
       <title>FreeRTOS学习笔记 - API规范记录</title>
       <link>https://www.papernote.cn/posts/2022-07-22-freertos%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-api%E8%A7%84%E8%8C%83%E8%AE%B0%E5%BD%95/</link>
