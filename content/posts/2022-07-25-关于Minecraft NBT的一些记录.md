@@ -29,7 +29,7 @@ keywords = [
 
 ### 附魔 Enchantments
 
-```json
+```text
 {
     Enchantments:[
         {id:"魔咒ID",lvl:#魔咒等级},
@@ -49,7 +49,7 @@ keywords = [
 
 ### 名称显示 display
 
-```json
+```text
 {
     display:{
         Name:"物品名称的JSON文本",
@@ -71,7 +71,7 @@ keywords = [
 
 ### 属性 AttributeModifiers
 
-```json
+```text
 {
     AttributeModifiers:[
         {AttributeName:"#",Name:"#",Amount:#,Operation:#,UUID:[I;#,#,#,#],Slot:#},
@@ -95,7 +95,7 @@ keywords = [
 
 ### 不可破坏 Unbreakable
 
-```json
+```text
 {Unbreakable:1b}
 ```
 
@@ -105,7 +105,7 @@ keywords = [
 
 ### 附魔书 StoredEnchantments
 
-```json
+```text
 {
     StoredEnchantments:[
         {id:"魔咒ID",lvl:#魔咒等级},
@@ -207,7 +207,7 @@ keywords = [
 
 具有高额击退，拿着的时候提供速度加成。
 
-```json
+```text
 /give @p minecraft:feather{display:{Name:'["迅捷步伐"]'},Enchantments:[{id:"knockback",lvl:16}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.armor_toughness",Amount:2,Operation:1,UUID:[I;1,1,1,9],Slot:"mainhand"}]}
 ```
 
@@ -215,7 +215,7 @@ keywords = [
 
 纯粹的高伤害，其实里面有附魔没生效。
 
-```json
+```text
 /give @p minecraft:stick{display:{Name:'["嗜杀癫狂"]'},Enchantments:[{id:"sharpness",lvl:255},{id:"bane_of_arthropods",lvl:255},{id:"smite",lvl:255}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.armor_toughness",Amount:0.2,Operation:1,UUID:[I;1,1,1,9],Slot:"mainhand"}]}
 ```
 
@@ -223,7 +223,7 @@ keywords = [
 
 中等伤害，较高等级的抢夺。
 
-```json
+```text
 /give @p minecraft:bone{display:{Name:'["巧取豪夺"]'},Enchantments:[{id:"sharpness",lvl:4},{id:"looting",lvl:32},{id:"silk_touch",lvl:1}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.armor_toughness",Amount:0.1,Operation:1,UUID:[I;1,1,1,9],Slot:"mainhand"}]}
 ```
 
@@ -231,7 +231,7 @@ keywords = [
 
 低伤害，但是会附着火焰。~~差不多刚好暴击一头牛~~
 
-```json
+```text
 /give @p minecraft:blaze_rod{display:{Name:'["燃尽薪焱"]'},Enchantments:[{id:"sharpness",lvl:16},{id:"fire_aspect",lvl:255}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.armor_toughness",Amount:0.1,Operation:1,UUID:[I;1,1,1,9],Slot:"mainhand"}]}
 ```
 
@@ -239,7 +239,7 @@ keywords = [
 
 拿着的时候减速，但是提供高额护甲和盔甲韧性，难以被击退，惧怕魔法伤害和破防
 
-```json
+```text
 /give @p minecraft:nautilus_shell{display:{Name:'["坚强立场"]'},Enchantments:[{id:"protection",lvl:5}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:-0.8,Operation:1,UUID:[I;1,1,114,9],Slot:"mainhand"},{AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:2,Operation:0,UUID:[I;1,1,114,8],Slot:"mainhand"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:255,Operation:0,UUID:[I;1,1,114,7],Slot:"mainhand"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:255,Operation:0,UUID:[I;1,1,114,6],Slot:"mainhand"}]}
 ```
 
@@ -249,23 +249,23 @@ keywords = [
 
 所有的保护
 
-```json
+```text
 /give @p minecraft:enchanted_book{StoredEnchantments:[{id:"blast_protection",lvl:5},{id:"feather_falling",lvl:5},{id:"fire_protection",lvl:5},{id:"projectile_protection",lvl:5},{id:"protection",lvl:5},{id:"unbreaking",lvl:3},{id:"depth_strider",lvl:3},{id:"respiration",lvl:3},{id:"thorns",lvl:4},{id:"soul_speed",lvl:4}]}
 ```
 
 所有的伤害
 
-```json
+```text
 /give @p minecraft:enchanted_book{StoredEnchantments:[{id:"looting",lvl:3},{id:"sharpness",lvl:255},{id:"bane_of_arthropods",lvl:255},{id:"smite",lvl:255},{id:"fire_aspect",lvl:1}]}
 ```
 
 ### 一些盔甲
 
-```json
+```text
 /give @p minecraft:chainmail_boots{display:{Name:'["天使的足履"]'},Enchantments:[{id:"blast_protection",lvl:5},{id:"binding_curse",lvl:1},{id:"depth_strider",lvl:3},{id:"feather_falling",lvl:255},{id:"fire_protection",lvl:2},{id:"mending",lvl:2},{id:"projectile_protection",lvl:3},{id:"protection",lvl:5},{id:"respiration",lvl:4},{id:"swift_sneak",lvl:5},{id:"soul_speed",lvl:3},{id:"thorns",lvl:5},{id:"unbreaking",lvl:3}],Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:10,Operation:0,UUID:[I;1,1,3,1],Slot:"feet"},{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0.1,Operation:1,UUID:[I;1,1,3,2],Slot:"feet"},{AttributeName:"generic.knockback_resistance",Name:"generic.max_health",Amount:0.2,Operation:1,UUID:[I;1,1,3,3],Slot:"feet"},{AttributeName:"generic.movement_speed",Name:"generic.max_health",Amount:0.4,Operation:1,UUID:[I;1,1,3,5],Slot:"feet"},{AttributeName:"generic.attack_speed",Name:"generic.max_health",Amount:514,Operation:0,UUID:[I;1,1,3,7],Slot:"feet"},{AttributeName:"generic.armor",Operation:0,Amount:10d,Slot:"feet",Name:"Armor",UUID:[I;1,1,3,4]}]}
 ```
 
-```json
+```text
 /give @p minecraft:elytra{display:{Name:'["天使的羽翼"]'},Enchantments:[{id:"blast_protection",lvl:5},{id:"binding_curse",lvl:1},{id:"depth_strider",lvl:3},{id:"feather_falling",lvl:255},{id:"fire_protection",lvl:2},{id:"mending",lvl:2},{id:"projectile_protection",lvl:3},{id:"protection",lvl:5},{id:"respiration",lvl:4},{id:"swift_sneak",lvl:5},{id:"soul_speed",lvl:3},{id:"thorns",lvl:5},{id:"unbreaking",lvl:3}],Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:10,Operation:0,UUID:[I;1,1,2,1],Slot:"chest"},{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:0.1,Operation:1,UUID:[I;1,1,2,2],Slot:"chest"},{AttributeName:"generic.knockback_resistance",Name:"generic.max_health",Amount:0.2,Operation:1,UUID:[I;1,1,2,3],Slot:"chest"},{AttributeName:"generic.movement_speed",Name:"generic.max_health",Amount:0.4,Operation:1,UUID:[I;1,1,2,5],Slot:"chest"},{AttributeName:"generic.attack_speed",Name:"generic.max_health",Amount:514,Operation:0,UUID:[I;1,1,2,7],Slot:"chest"},{AttributeName:"generic.armor",Operation:0,Amount:10d,Slot:"chest",Name:"Armor",UUID:[I;1,1,2,4]}]}
 
 ```
