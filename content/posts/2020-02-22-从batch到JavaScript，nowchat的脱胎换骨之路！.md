@@ -83,7 +83,7 @@ keywords = [
 
 [https://github.com/AyalaKaguya/NowChat](https://github.com/AyalaKaguya/NowChat)
 
-小站官方聊天室地址：[NowChat][4]
+小站官方聊天室地址：[NowChat][4] （停止运营）
 
  [1]: http://tieba.baidu.com/p/5840318345
  [2]: https://mdui.org/
