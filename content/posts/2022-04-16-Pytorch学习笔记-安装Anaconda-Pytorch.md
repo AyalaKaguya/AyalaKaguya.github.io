@@ -2,6 +2,7 @@
 title = "Pytorch学习笔记 - 安装Anaconda&PyTorch"
 date = "2022-04-16T20:44:17+08:00"
 author = "AyalaKaguya"
+summary = '摘要：如何安装Anaconda以及PyTorch呢？附带一些常用指令和排错。'
 tags = [
     "PyTorch",
     "Anaconda",

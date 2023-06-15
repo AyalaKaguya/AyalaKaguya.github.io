@@ -1,6 +1,7 @@
 +++
 title= 'SMBchat-一个基于SMB协议的聊天软件'
 author= 'AyalaKaguya'
+summary = '摘要：制作了一款在CMD环境下使用的聊天软件。'
 date = "2019-08-04"
 tags = [
     "smbchat",

@@ -2,6 +2,7 @@
 title = "FreeRTOS学习笔记 - API规范记录"
 date = "2022-07-22T23:09:17+08:00"
 author = "AyalaKaguya"
+summary = '摘要：记录FreeRTOS中常用的API。'
 tags = [
     "FreeRTOS",
     "ESP32",

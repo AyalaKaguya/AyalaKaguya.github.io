@@ -1,6 +1,7 @@
 +++
 title= '从Batch到JAVA Script，NowChat的脱胎换骨之路！'
 author= 'AyalaKaguya'
+summary = '摘要：让我们更进一步的做一款在web侧的聊天软件。'
 date = "2020-02-22"
 tags = [
     "nowchat",

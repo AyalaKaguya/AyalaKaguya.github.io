@@ -1,6 +1,7 @@
 +++
 title= 'MATLAB 小笔记'
 author= ['AyalaKaguya','浪里白条李某人']
+summary = '摘要：记录了一些MATLAB的用法。'
 date = "2021-10-10"
 tags = [
     "matlab",

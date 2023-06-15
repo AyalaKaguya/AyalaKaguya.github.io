@@ -2,6 +2,7 @@
 title = "关于Minecraft NBT的一些记录"
 date = "2022-07-25T09:30:17+08:00"
 author = "AyalaKaguya"
+summary = '摘要：某日玩Minecraft有感，想要自定义的内容遂发此篇。'
 tags = [
     "Minecraft",
     "NBT",
