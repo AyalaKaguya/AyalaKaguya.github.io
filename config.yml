@@ -1,9 +1,9 @@
-baseURL: "https://www.papernote.cn/"
+baseURL: "https://ayalakaguya.github.io/"
 title: Paper的小站
 paginate: 8
 theme: PaperMod
 languageCode: "zh_CN"
-copyright: "© 2017-2023 **[Paper的小站](https://www.papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [苏ICP备20043492号](https://beian.miit.gov.cn/) |"
+copyright: "© 2017-2023 **[Paper的小站](https://ayalakaguya.github.io)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -60,7 +60,7 @@ params:
     - name: email
       url: "mailto:papermo.io@gmail.com"
     - name: rss
-      url: "https://www.papernote.cn/index.xml"
+      url: "https://ayalakaguya.github.io/index.xml"
 
   cover:
     hidden: true # hide everywhere but not in structured data
