@@ -24,4 +24,4 @@ ShowBreadCrumbs: false
 - [吴先森的笔记](https://www.wunote.cn/) 为退烧而生！
 - [gggxbbb](https://gxb.icu/) Just so so... (~~博主自评~~)
 - [Future_Maker_Blog](https://blog.k1zxiaokeai.com) 永远打不败的，是你想要的自己。
-- [snote](https://snote.cn/) 资源管理器？
+- [山归山](https://snote.cn/) 归鸿声断残云碧。背窗雪落炉烟直。
