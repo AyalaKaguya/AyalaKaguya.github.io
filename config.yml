@@ -1,9 +1,9 @@
 baseURL: "https://www.papernote.cn/"
-title: 个人学习生活的笔记
+title: Ayala的小站
 paginate: 8
 theme: PaperMod
 languageCode: "zh_CN"
-copyright: "© 2017-2023 **[个人学习生活的笔记](https://www.papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [苏ICP备20043492号](https://beian.miit.gov.cn/) |"
+copyright: "© 2017-2023 **[Ayala的小站](https://www.papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) |"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -18,8 +18,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: 个人学习生活的笔记 | 至繁归于简
-  description: "Good，欢迎来到Ayala的博客！ 博主00后天蝎座一枚，现处大三，地处美丽的江南水乡，Ayala是我的昵称。 在这里，我会分享我的爱好、我的生活以及一些知识，欢迎大家多多来访并作出评论。 另外，欢迎友链。"
+  title: Ayala的小站 | 至繁归于简
+  description: "Good，欢迎来到Ayala的博客！ 博主00后天蝎座一枚，现处大四，地处美丽的江南水乡，Ayala是我的昵称。 在这里，我会分享我的爱好、我的生活以及一些知识，欢迎大家多多来访并作出评论。 另外，欢迎友链。"
   keywords: [博客, 前端, 手工, 计算机, AyalaKaguya]
   author: AyalaKaguya
   # images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -51,7 +51,7 @@ params:
     # safari_pinned_tab: "<link / abs url>"
 
   homeInfoParams:
-    Title: "欢迎来到纸莫的博客 \U0001F44B"
+    Title: "欢迎来到Ayala的博客 \U0001F44B"
     Content: "博主01后天蝎座一枚，现处大四，地处美丽的江南水乡，Ayala是我的昵称。 在这里，我会分享我的爱好、我的生活以及一些知识，欢迎大家多多来访并作出评论。 另外，欢迎友链。"
 
   socialIcons:
