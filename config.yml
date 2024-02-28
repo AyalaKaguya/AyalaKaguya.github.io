@@ -6,9 +6,13 @@ languageCode: "zh_CN"
 copyright: "© 2017-2023 **[Ayala的小站](https://www.papernote.cn)** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) |"
 
 enableRobotsTXT: true
+enableInlineShortcodes: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
 
 # googleAnalytics: UA-123-45
 
